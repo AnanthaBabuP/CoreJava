@@ -1,0 +1,12 @@
+package com.Abstaction;
+
+public class AbstactionTesting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Vahicle v = new BiCycle();
+
+	}
+
+}

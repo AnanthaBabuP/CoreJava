@@ -1,0 +1,58 @@
+package com.Interface;
+
+public interface Shap {
+	//	public static final double pi = 3.15;
+	double pi = 3.15;
+	
+	public abstract void shap_radious();
+	
+}
+
+class Circle implements Shap,Shap2{
+	double radius;
+	
+	public Circle(double radius) {
+		this.radius = radius;
+	}
+	
+	public void shap_radious() {
+		// TODO Auto-generated method stub
+		System.out.println("Shap of Circle is "+(pi*radius*radius));
+	}
+
+	public void shap_Valume() {
+		// TODO Auto-generated method stub
+		System.out.println("Valume fo Circle is "+((4*pi*radius*radius*radius)/3);
+		
+	}
+	
+}
+
+class Square implements Shap{
+	double l;
+	
+	public Square(double l) {
+		this.l = l;
+	}
+	
+	public void shap_radious() {
+		// TODO Auto-generated method stub
+		System.out.println("Shap of Square is "+(l*l));
+	}
+	
+}
+
+class Rectangle implements Shap{
+	double l,b;
+	
+	public Rectangle(double l,double b) {
+		this.l = l;
+		this.b = b;
+	}
+	
+	public void shap_radious() {
+		// TODO Auto-generated method stub
+		System.out.println("Shap of Rectanle is "+(l*b));
+	}
+	
+}

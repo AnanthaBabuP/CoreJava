@@ -1,0 +1,5 @@
+package com.Abstaction;
+
+public interface Vahicle {
+
+}

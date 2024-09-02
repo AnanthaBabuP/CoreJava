@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.ComparatorInterface.pageComparator.java&apos; to &apos;PageComparator.java&apos;&#x0D;&#x0A;- Original project: &apos;OopsConcepts&apos;&#x0D;&#x0A;- Original element: &apos;com.ComparatorInterface.pageComparator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ComparatorInterface.PageComparator.java&apos;" description="Rename compilation unit &apos;pageComparator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.ComparatorInterface{pageComparator.java" name="PageComparator.java" references="false" stamp="1725206923227" version="1.0"/>
+</session>

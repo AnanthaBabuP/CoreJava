@@ -1,0 +1,5 @@
+package com.AbstactClass;
+
+public abstract class Animal {
+
+}

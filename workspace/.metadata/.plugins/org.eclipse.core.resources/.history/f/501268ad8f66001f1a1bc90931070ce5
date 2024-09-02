@@ -1,0 +1,28 @@
+package com.CodingChalangeArray;
+
+import java.util.Scanner;
+
+public class FindElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Get Data From User 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the Number Of element for Array :");
+        int n = scan.nextInt();
+        
+        // Array length check
+        if(n < 3) {
+        	System.out.println("Array Length must be 3 or more");
+        }
+        // Get Array Element one by one from user
+        System.out.println("Enter the array element one by one");
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++) {
+        	arr[i] = scan.nextInt();
+        	
+        }
+	}
+
+}

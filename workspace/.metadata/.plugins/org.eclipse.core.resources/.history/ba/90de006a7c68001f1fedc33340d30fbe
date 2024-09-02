@@ -1,0 +1,15 @@
+package com.ComparatorInterface;
+
+import java.util.Comparator;
+
+public class pageComparator implements Comparator<Books> {
+	
+	int page;
+
+	public int compare(Books x, Books y) {
+		return x.pages - y.pages;
+	}
+	
+	
+
+}

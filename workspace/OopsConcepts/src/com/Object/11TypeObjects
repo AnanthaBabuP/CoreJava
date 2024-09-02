@@ -1,0 +1,16 @@
+@override
+public String toString()
+public boolean equals(Object arg)
+public int hashCode()
+public class getClass()
+
+// Thread Concept
+public void wait()
+public void wait(float arg)
+public void wait(float arg,int arg)
+public void notify()
+public void notifuAll()
+
+// Protected methods
+protected void finalize()
+protected Object clone()

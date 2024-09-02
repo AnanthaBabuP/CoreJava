@@ -1,0 +1,8 @@
+package com.ComparatorInterface;
+
+import java.util.Comparator;
+
+public class PriceComparator implements Comparator<Books> {
+
+	
+}

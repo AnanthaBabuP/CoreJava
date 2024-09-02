@@ -1,0 +1,10 @@
+package com.MethodOverriding;
+
+public class MethodOverridingTesting {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+
+	}
+
+}

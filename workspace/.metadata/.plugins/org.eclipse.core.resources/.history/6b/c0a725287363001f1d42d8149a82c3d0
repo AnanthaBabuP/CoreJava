@@ -1,0 +1,23 @@
+package com.SuperKeyword;
+
+public class A {
+	int i = 10;
+	public A() {
+		System.out.println("A class constractor");
+	}
+	
+	void display() {
+		System.out.println("A Class Method");
+	}
+}
+class B extends A{
+	int i = 10;
+	
+	B(){
+		System.out.println("B Class Constracctor");
+	}
+	
+	void display() {
+		System.out.println("B Class Method");
+	}
+}

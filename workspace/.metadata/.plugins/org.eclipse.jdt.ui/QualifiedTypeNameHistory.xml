@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.Sample.PassingObject"/>
+    <fullyQualifiedTypeName name="com.Sample.Employee"/>
+    <fullyQualifiedTypeName name="com.method.Animal"/>
+    <fullyQualifiedTypeName name="com.StaticKeyword.StaticBlock"/>
+    <fullyQualifiedTypeName name="CallByValueVsCallByReferance.CallByValue"/>
+    <fullyQualifiedTypeName name="com.AccessorMutatorMethod.Person"/>
+    <fullyQualifiedTypeName name="com.Thiskeyword.Person"/>
+    <fullyQualifiedTypeName name="com.Inheritance.DomasticAnimal"/>
+    <fullyQualifiedTypeName name="com.Inheritance.Animal"/>
+    <fullyQualifiedTypeName name="com.Inheritance.DomasticAnimal1"/>
+    <fullyQualifiedTypeName name="com.Inheritance.WildAnimal"/>
+    <fullyQualifiedTypeName name="com.Aggregation.Address"/>
+    <fullyQualifiedTypeName name="com.Aggregation.Student"/>
+    <fullyQualifiedTypeName name="com.Interface.Shap"/>
+    <fullyQualifiedTypeName name="com.Interface.Rectangle"/>
+    <fullyQualifiedTypeName name="com.Interface.Square"/>
+    <fullyQualifiedTypeName name="com.Interface.Shap3d"/>
+    <fullyQualifiedTypeName name="com.Interface.Shap3"/>
+    <fullyQualifiedTypeName name="org.omg.DynamicAny.DynValueCommon"/>
+    <fullyQualifiedTypeName name="com.Abstaction.Vahicle"/>
+    <fullyQualifiedTypeName name="com.Abstaction.BiCycle"/>
+    <fullyQualifiedTypeName name="com.MethodOverriding.Snake"/>
+    <fullyQualifiedTypeName name="com.GarpageColletion.Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.ComparableInterface.Books"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.ComparatorInterface.Books"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.ComparatorInterface.PageComparator"/>
+    <fullyQualifiedTypeName name="com.ComparatorInterface.PriceComparator"/>
+</qualifiedTypeNameHistroy>

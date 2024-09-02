@@ -1,0 +1,38 @@
+package com.AbstactClass;
+
+public abstract class Animal {
+	
+	Animal(){
+		
+	}
+	abstract void makeSound();
+	abstract void eating();
+	
+	void walking() {
+		System.out.println("Animals are walking..");
+	}
+}
+
+class Dog extends Animal{
+	@Override
+	void makeSound() {
+		System.out.println("Dogs Are Barking...");
+	}
+	
+	@Override
+	void eating() {
+		System.out.println("Dog Are Eating Food and Bones..");
+	}
+}
+
+class Cat extends Animal{
+	@Override
+	void makeSound() {
+		System.out.println("Cat Are Meowing...");
+	}
+	
+	@Override
+	void eating() {
+		System.out.println("Cat Are Eating Fish..");
+	}
+}

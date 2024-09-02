@@ -1,0 +1,28 @@
+package com.ComparatorInterface;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ComaparatorInterface {
+
+	public static void main(String[] args) {
+		Books[] myBook = {
+				new Books("java",400,250.0),
+				new Books("android",358,168.0),
+				new Books("php",320,125.0),
+				new Books("sql",700,560.0),
+				new Books("c",368,175.0)
+		};
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Sort by on ...");
+		
+		Arrays.sort(myBook);
+		
+		
+		
+		for(Books b : myBook)
+			System.out.println(b);
+	}
+
+}

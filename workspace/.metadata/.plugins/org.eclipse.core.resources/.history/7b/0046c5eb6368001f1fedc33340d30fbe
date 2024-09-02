@@ -1,0 +1,17 @@
+package com.WrapperClass;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		int a = 10; // Primitive type
+		int b = 20; // primitive Type
+		
+		System.out.println("Conversion primitive to non-primitive type");
+		String s1 = Integer.toString(a); // "10"
+		String s2 = Integer.toString(b); // "20"
+		
+		System.out.println(s1+s2);
+
+	}
+
+}

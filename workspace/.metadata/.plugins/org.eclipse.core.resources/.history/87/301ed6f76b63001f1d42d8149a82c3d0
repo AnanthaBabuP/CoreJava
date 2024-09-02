@@ -1,0 +1,15 @@
+package com.AbstactClass;
+
+public class AbstacctClassTesting {
+
+	public static void main (String[] args) {
+		// new Animal(); // cannot create abstract class
+		Animal a = new Dog(); //UpCasting
+		a.makeSound();
+		a.eating();
+		
+		Animal a = new Cat(); //UpCasting
+		a.makeSound();
+		a.eating();
+	}
+}

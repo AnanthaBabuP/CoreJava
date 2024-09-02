@@ -1,0 +1,7 @@
+package com.Abstaction;
+
+public interface Vahicle {
+	public void gearUp(int g);
+	public void handleBrack(int b);
+	private void speedUp(int s);
+}

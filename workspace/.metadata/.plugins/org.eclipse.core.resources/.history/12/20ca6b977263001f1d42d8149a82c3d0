@@ -1,0 +1,12 @@
+package com.SuperKeyword;
+
+public class A {
+	int i = 10;
+	public A() {
+		System.out.println("A class constractor");
+	}
+	
+	void display() {
+		System.out.println("A Class Method");
+	}
+}
