@@ -1,0 +1,23 @@
+package com.StringClass;
+
+public class StringClass {
+
+	public static void main(String[] args) {
+		// public char charAt(int Index)
+		// public int compareTo(String anotherString)
+		// public int compareToIgnoreCase(String anotherString)
+		// public boolean contains(CharaterSequence sequence)
+		// public boolean startWith(String anotherString)
+		// public boolean endWith()
+		// public boolean equals(Object anotherObject)
+
+		String s1 = "java is a programing language";
+		String s2 = "JAVA";
+		
+		System.out.println(s1.charAt(2));
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.compareToIgnoreCase(s2));
+		System.out.println(s1.contains("v"));
+	}
+
+}

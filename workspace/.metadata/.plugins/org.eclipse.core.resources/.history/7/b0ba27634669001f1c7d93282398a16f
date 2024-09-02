@@ -1,0 +1,18 @@
+package com.StringClass;
+
+import java.util.Scanner;
+
+public class StringOccurance {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter String ...");
+		String str = scan.next();
+		
+		for(int i=0;i<str.length();i++) {
+			String c = str.charAt(i);
+		}
+
+	}
+
+}
