@@ -1,0 +1,12 @@
+package ThrowThrowsThrowable;
+
+public class Differance {
+
+	public static void main(String[] args) {
+		m1();
+	}
+	
+	static void m1() {
+		throw new ArithmeticException("This is Arithmatic Exprestion:");
+	}
+}

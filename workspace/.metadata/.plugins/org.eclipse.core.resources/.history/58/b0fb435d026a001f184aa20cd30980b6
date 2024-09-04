@@ -1,0 +1,19 @@
+package ExceptionHandling;
+
+import java.io.DataInputStream;
+
+public class ExceptionHandlingDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Hellow");
+		
+		int a,b;
+		DataInputStream db = new DataInputStream(System.in);
+		a= Integer.parseInt(db.readLine());
+		b = Integer.parseInt(db.readLine());
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+
+}

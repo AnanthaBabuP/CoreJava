@@ -1,0 +1,28 @@
+package com.StringBuffer;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		/*
+		 	StringBuffer sbf = new StringBuffer("java");
+			System.out.println(sbf); // java
+			sbf.append(" developer"); // java developer
+			System.out.println(sbf); // java developer - changes changed
+			// VS STRING
+			String s= new String("java");
+			System.out.println(s); // java
+			s.concat(" developer"); // java developer
+			System.out.println(s); // java - Changes not change
+		*/
+		
+		StringBuffer sbf = new StringBuffer("Java is a Programming");
+		System.out.println(sbf);
+		
+		// append method
+		sbf.append(" Langiage");
+		System.out.println(sbf);
+		
+		// insert method
+		sbf.insert(9, " Object Oriented ")
+	}
+}
