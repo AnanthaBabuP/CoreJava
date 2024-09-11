@@ -1,0 +1,16 @@
+package com.Thread_interThreadCommunication;
+
+public class PrintNumber {
+	boolean flag = false;
+	public synchronized void printOdd(int number) {
+		while(flag) {
+			wait();
+		}
+		System.out.println("Odd :"+number);
+	}
+	
+	public synchronized void printEven(int number) {
+		System.out.println("Even : "+number);
+	}
+
+}

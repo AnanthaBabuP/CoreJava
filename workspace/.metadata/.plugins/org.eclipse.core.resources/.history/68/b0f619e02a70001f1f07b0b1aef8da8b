@@ -1,0 +1,15 @@
+package com.Thread_interThreadCommunication;
+
+import com.TreadSychronizaton.SychronizationDemo;
+
+public class PrintNumber {
+	
+	public synchronized void printOdd(int number) {
+		System.out.println("Odd :"+number);
+	}
+	
+	public void printEven(int number) {
+		System.out.println("Even : "+number);
+	}
+
+}

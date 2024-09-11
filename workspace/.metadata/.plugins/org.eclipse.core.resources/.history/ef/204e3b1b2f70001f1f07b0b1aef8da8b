@@ -1,0 +1,11 @@
+package com.DeadLock;
+
+public class DeadLock {
+
+	public static void main(String[] args) {
+		final Object lockA = new Object();
+		final Object lockB = new Object();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.MultiThreading;
+
+public class MainThread {
+
+	public static void main(String[] args) {
+		System.out.println("Main Thread start");
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.MultiThreading.MainMultithreading;
+
+public class MainMultiThreadDemo {
+
+	public static void main(String[] args) {
+		MainThreadDemo obj1 = new MainThreadDemo("Thread-1"); // Object Creation
+		MainThreadDemo obj2 = new MainThreadDemo("Thread-2"); // Object creation
+		MainThreadDemo obj3 = new MainThreadDemo("Thread-3"); // Object Creation
+
+		try {
+			for(int i=1;i<=5;i++) {
+				System.out.println(Thread.currentThread().getName() +i);
+				Thread.sleep(1000);
+			}
+			System.out.println("Thread "+ Thread.currentThread().getName());
+			
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+			
+		}
+	}
+
+}

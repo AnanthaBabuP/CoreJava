@@ -1,0 +1,12 @@
+package com.MultiThreading.MainMultithreading;
+
+public class MainMultiThreadDemo {
+
+	public static void main(String[] args) {
+		MainThreadDemo obj1 = new MainThreadDemo("Thread-1");
+		MainThreadDemo obj2 = new MainThreadDemo("Thread-2");
+		MainThreadDemo obj3 = new MainThreadDemo("Thread-3");
+
+	}
+
+}

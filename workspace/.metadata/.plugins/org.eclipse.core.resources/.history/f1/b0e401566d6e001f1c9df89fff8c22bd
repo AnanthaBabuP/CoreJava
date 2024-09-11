@@ -1,0 +1,13 @@
+package com.CollectionSetinterface;
+
+public class SetInterfaceDemo {
+
+	public static void main(String[] args) {
+		// Set - Interface
+		//HashSet
+		// LinkedHashSet
+		// TreeSet
+
+	}
+
+}

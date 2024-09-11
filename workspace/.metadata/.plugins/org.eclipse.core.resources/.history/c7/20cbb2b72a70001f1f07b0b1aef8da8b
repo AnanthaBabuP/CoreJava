@@ -1,0 +1,13 @@
+package com.Thread_interThreadCommunication;
+
+public class PrintNumber {
+	
+	public void printOdd(int number) {
+		System.out.println("Odd");
+	}
+	
+	public void printEven(int number) {
+		System.out.println("Even");
+	}
+
+}

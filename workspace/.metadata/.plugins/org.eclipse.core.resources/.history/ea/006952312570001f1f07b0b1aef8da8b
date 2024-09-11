@@ -1,0 +1,11 @@
+package com.TreadSychronizaton;
+
+public class Tread2 {
+	
+	Table t1;
+	
+	public Tread2() {
+		t1 = new Table();
+	}
+
+}

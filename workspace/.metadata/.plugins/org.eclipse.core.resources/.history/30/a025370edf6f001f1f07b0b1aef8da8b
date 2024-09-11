@@ -1,0 +1,7 @@
+package com.MethodOverriding;
+
+public class MspDemo {
+
+	public static void main(String[] args) {
+		 
+}

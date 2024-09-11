@@ -1,0 +1,19 @@
+package com.MultiThreading.MainMultithreading;
+
+public class MainThreadDemo implements Runnable{
+	Thread t;
+	String threadName;
+	
+	MainThreadDemo(String name){
+		threadName = name;
+		t= new Thread(threadName);
+		t.start();
+	
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Main "+ t.currentThread().getName());
+		
+	}
+
+}

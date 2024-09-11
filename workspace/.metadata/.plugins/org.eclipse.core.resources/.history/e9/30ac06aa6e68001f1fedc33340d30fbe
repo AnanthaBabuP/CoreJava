@@ -1,8 +1,0 @@
-package com.ComparableInterface;
-
-public class Books implements Comparable{
-	
-	String bookName;
-	
-
-}

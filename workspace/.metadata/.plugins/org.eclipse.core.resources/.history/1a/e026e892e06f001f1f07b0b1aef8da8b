@@ -1,0 +1,21 @@
+package com.MethodOverriding;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapInterfaceDemo {
+
+	public static void main(String[] args) {
+		 
+		// Map Interface
+		// collection of key and value pairs
+		Map<String, Integer> m1 = new HashMap<String, Integer>(); // Random Model
+		m1.put("java", 25);
+		m1.put("android", 56);
+		m1.put("sql", 47);
+		m1.put("php", 86);
+		m1.put("python", 12);
+	
+		System.out.println(m1);
+	}
+}

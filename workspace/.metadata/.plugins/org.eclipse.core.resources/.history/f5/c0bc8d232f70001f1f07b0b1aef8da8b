@@ -1,0 +1,20 @@
+package com.DeadLock;
+
+public class DeadLock {
+
+	public static void main(String[] args) {
+		final Object lockA = new Object();
+		final Object lockB = new Object();
+		
+		Thread t1 =new Thread() {
+			@Override
+			public void run() {
+				synchronized (t1) {
+					System.out.println("Thread1 is Uptain Lock A");
+				}
+			}
+		};
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.TreadSychronizaton;
+
+public class Thread1 extends Thread{
+
+	Table t1;
+	public Thread1() {
+		t1= new Table(); 
+	}
+}

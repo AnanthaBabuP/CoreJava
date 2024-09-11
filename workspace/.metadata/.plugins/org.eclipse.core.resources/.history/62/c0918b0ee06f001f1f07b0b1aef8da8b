@@ -1,0 +1,12 @@
+package com.MethodOverriding;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapInterfaceDemo {
+
+	public static void main(String[] args) {
+		 
+		Map<String, Integer> m1 = new HashMap<String, Integer>();
+	}
+}

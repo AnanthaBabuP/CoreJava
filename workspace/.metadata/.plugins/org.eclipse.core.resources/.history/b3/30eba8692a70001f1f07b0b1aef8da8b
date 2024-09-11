@@ -1,0 +1,19 @@
+package com.Thread_interThreadCommunication;
+
+public class EvenThread extends Thread{
+	PrintNumber p;
+	
+	
+	
+	public EvenThread(PrintNumber p) {
+		this.p = p;
+	}
+
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+}
