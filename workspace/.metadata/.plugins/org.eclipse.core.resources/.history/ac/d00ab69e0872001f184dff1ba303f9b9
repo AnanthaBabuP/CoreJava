@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class RemoveFirstAndLastCharacter {
 
 	public static void main(String[] args) {
-		// Get Input From User Using Scanner Class 
+		// Get Input From User Using Scanner Class
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter A String :");
 		String str = scan.nextLine();
