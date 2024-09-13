@@ -1,0 +1,10 @@
+package com.CodingChalangeString;
+
+public class RepeatedCharactor {
+
+	public static void main(String[] args) {
+		// Get Input from User
+
+	}
+
+}

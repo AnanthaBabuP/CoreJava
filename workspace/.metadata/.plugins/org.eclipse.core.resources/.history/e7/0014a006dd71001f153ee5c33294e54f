@@ -1,0 +1,19 @@
+package com.CodingChalangeString;
+
+import java.util.Scanner;
+
+public class ShowDigitOnly {
+
+	public static void main(String[] args) {
+		
+		// Get Input from User
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter The String :");
+		String str = scan.next();
+		
+		System.out.println(str.length());
+		scan.close();
+
+	}
+
+}

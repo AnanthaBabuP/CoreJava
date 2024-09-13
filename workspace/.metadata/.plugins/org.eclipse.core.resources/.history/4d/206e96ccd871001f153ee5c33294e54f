@@ -1,0 +1,7 @@
+package com.LambdaExprstion;
+//2.@fuctionalInterfaces
+@FunctionalInterface
+public interface MyInterface{
+
+	public void show(); // 1.public abstract method
+}

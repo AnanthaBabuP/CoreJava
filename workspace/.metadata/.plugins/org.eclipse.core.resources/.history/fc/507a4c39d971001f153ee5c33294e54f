@@ -1,0 +1,17 @@
+package com.LambdaExprstion;
+
+public class MyClass implements MyInterface{
+
+	public static void main(String[] args) {
+//		1.
+//		MyInterface obj = new MyClass(); // Up-Casting
+//		obj.show();
+
+	}
+
+//	public void show() {
+//		System.out.println("Show function for Lambda Exprestion");
+//		
+//	}
+
+}

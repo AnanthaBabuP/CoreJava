@@ -1,0 +1,5 @@
+package com.LambdaExprstion;
+
+public interface Show {
+
+}

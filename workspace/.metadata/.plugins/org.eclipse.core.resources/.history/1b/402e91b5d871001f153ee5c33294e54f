@@ -1,0 +1,6 @@
+package com.LambdaExprstion;
+
+public interface MyInterface{
+
+	public void show(); // public abstract method
+}

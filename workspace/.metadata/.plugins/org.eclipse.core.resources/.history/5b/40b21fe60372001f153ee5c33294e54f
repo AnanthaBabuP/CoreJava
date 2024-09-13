@@ -1,0 +1,25 @@
+package com.FunctionalInterface;
+
+public class Book implements Comparable{
+
+	String name;
+	int page;
+	double price;
+	
+	
+	public Book(String name, int page, double price) {
+		super();
+		this.name = name;
+		this.page = page;
+		this.price = price;
+	}
+
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

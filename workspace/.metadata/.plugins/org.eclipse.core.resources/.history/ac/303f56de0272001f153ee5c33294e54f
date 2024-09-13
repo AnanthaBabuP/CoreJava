@@ -1,0 +1,18 @@
+package com.FunctionalInterface;
+
+public class Book implements Comparable{
+
+	String name;
+	int page;
+	double price;
+	
+	
+	public Book(String name, int page, double price) {
+		super();
+		this.name = name;
+		this.page = page;
+		this.price = price;
+	}
+	
+	
+}

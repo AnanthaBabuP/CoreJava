@@ -1,0 +1,15 @@
+package com.CodingChalangeString;
+
+import java.util.Scanner;
+
+public class RemoveFirstAndLastCharacter {
+
+	public static void main(String[] args) {
+		// Get Input From User
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter A String");
+		
+		scan.close();
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.FunctionalInterface;
+
+public class RunableDemo {
+
+	public static void main(String[] args) {
+		/*Functional Interface
+	 		1.Runnable - run()
+	 		2.Comparable - compareTo()
+	 		3.Comparator - compare()
+		 */
+
+	}
+
+}

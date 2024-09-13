@@ -1,0 +1,24 @@
+package com.CodingChalangeString;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class RepeatedCharactor {
+
+	public static void main(String[] args) {
+		// Get Input from User using Scanner Class
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter The String :");
+		String str = scan.nextLine();
+		
+		// Create a hashMap
+		Map<Character, Integer> charCountMap = new HashMap<>();
+		
+		
+		
+		
+		scan.close();
+	}
+
+}
