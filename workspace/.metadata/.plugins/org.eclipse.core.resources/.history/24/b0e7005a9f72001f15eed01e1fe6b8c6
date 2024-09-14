@@ -1,0 +1,12 @@
+package com.FilesAndStreams;
+
+import java.io.FilenameFilter;
+
+public class FileFilter  implements FilenameFilter{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

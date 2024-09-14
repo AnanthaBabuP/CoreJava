@@ -1,0 +1,23 @@
+package com.FilterStream.BufferStream;
+
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class BufferStream {
+
+	public static void main(String[] args) {
+		// Buffer = Temporary Storage / Increase Performance 
+		
+		try {
+			FileOutputStream fout = new FileOutputStream("D:\\FileStream");
+			BufferedOutputStream bOut = new BufferedOutputStream(fout);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

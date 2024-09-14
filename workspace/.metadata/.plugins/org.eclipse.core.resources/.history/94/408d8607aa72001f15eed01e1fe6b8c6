@@ -1,0 +1,30 @@
+package com.FileIOStream;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class FileInputStreamExample {
+
+	public static void main(String[] args) {
+		
+		FileOutputStreamExample fos = new FileOutputStreamExample();
+		try {
+			FileInputStream fi = new FileInputStream(fos.src);
+			// public int read();
+			// public int read(byte b[])
+			// public int read(byte[] b,int offset,int length)
+			
+			
+			int a = fi.read();
+			System.out.println(a);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

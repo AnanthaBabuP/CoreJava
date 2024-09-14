@@ -1,0 +1,14 @@
+package com.FileIOStream;
+
+import java.io.FileInputStream;
+
+public class FileInputStreamExample {
+
+	public static void main(String[] args) {
+		
+		FileOutputStreamExample fos = new FileOutputStreamExample();
+		FileInputStream fi = new FileInputStream(fos.src);
+
+	}
+
+}

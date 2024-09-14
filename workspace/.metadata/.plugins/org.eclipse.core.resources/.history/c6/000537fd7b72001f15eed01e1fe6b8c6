@@ -1,0 +1,13 @@
+package com.MethodReferance;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	double m1(double x,int y) {
+		return x+y;
+	}
+}

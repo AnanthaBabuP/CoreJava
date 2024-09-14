@@ -1,0 +1,7 @@
+package com.Functional_Programming;
+
+import java.util.function.Supplier;
+
+public class SupplierDemo implements Supplier {
+
+}

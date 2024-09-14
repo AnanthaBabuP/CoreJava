@@ -1,0 +1,26 @@
+package com.InnerClass;
+
+
+class A{
+	private int x;
+
+	public A(int x) {
+		this.x = x;
+	}
+	
+	// Inner Class = With out using static keyword
+	class B{
+		public void display() {
+			System.out.println("A Class X Value is "+x);
+		}
+	}
+	
+}
+public class InnerClass_Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

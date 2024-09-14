@@ -1,0 +1,19 @@
+package com.InnerClass;
+
+
+class A{
+	private int x;
+
+	public A(int x) {
+		this.x = x;
+	}
+	
+}
+public class InnerClass_Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

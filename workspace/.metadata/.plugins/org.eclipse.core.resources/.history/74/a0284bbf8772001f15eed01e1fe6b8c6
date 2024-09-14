@@ -1,0 +1,17 @@
+package com.FilesAndStreams;
+
+import java.io.File;
+
+public class Filehandling {
+
+	public static void main(String[] args) {
+		
+		File f = new File("Inmakes.txt");
+		
+		if(f.createNewFile()) {
+			System.out.println("File Created");
+		}
+
+	}
+
+}

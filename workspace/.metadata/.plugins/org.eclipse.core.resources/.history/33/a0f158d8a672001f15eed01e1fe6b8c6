@@ -1,0 +1,14 @@
+package com.FileIOStream;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class FileOutputStreamExample {
+
+	public static void main(String[] args) {
+		String src = "D:\\FileStream\\inmakes.txt";
+		FileInputStream f = new FileInputStream(src);
+
+	}
+
+}

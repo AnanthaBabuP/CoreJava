@@ -1,0 +1,15 @@
+package com.FilterStream.BufferStream;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class BufferStream {
+
+	public static void main(String[] args) {
+		// Buffer = Temporary Storage / Increase Performance 
+		
+		FileOutputStream f = new FileOutputStream("D:\\FileStream");
+
+	}
+
+}

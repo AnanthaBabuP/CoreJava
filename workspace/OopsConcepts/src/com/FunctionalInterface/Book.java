@@ -1,10 +1,10 @@
 package com.FunctionalInterface;
 
-public class Book implements Comparable{
+public class Book {
 
 	String name;
 	int page;
-	double price;
+	public double price;
 	
 	
 	public Book(String name, int page, double price) {
@@ -45,13 +45,13 @@ public class Book implements Comparable{
 //		
 //	}
 	
-	@Override
-	public int compareTo(Object x) {
-		Book b1 = (Book)x; // DownCasting
-		return this.name.compareTo(b1.name);
-		
-	}
-	
+//	@Override
+//	public int compareTo(Object x) {
+//		Book b1 = (Book)x; // DownCasting
+//		return this.name.compareTo(b1.name);
+//		
+//	}
+
 	
 //	@Override
 //	public int compareTo(Object x) {

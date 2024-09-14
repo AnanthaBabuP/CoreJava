@@ -1,0 +1,19 @@
+package com.InnerClass;
+
+public interface Interface_Anonymous {
+	void m1();
+}
+
+class Test implements Interface_Anonymous {
+
+	@Override
+	public void m1() {
+		System.out.println("M1 Calling...");
+		
+	}
+	
+	public static void main(String[] args) {
+		Interface_Anonymous i = new Test();
+	}
+	
+}

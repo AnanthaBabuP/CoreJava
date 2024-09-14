@@ -1,0 +1,24 @@
+package com.InnerClass;
+
+public class Test {
+
+//	@Override
+//	public void m1() {
+//		System.out.println("M1 Calling...");
+//		
+//	}
+	
+	public static void main(String[] args) {
+//		Interface_Anonymous i = new Test(); // UpCasting
+		Interface_Anonymous i  = new Interface_Anonymous() {
+			
+			@Override
+			public void m1() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		i.m1();
+	}
+	
+}
