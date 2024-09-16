@@ -20,6 +20,7 @@ public class ComparableInterface implements Comparable {
 
 	}
 
+	@Override
 	public int compareTo(Object x) {
 		String x1 = (String)x;
 		return x1.compareTo((String)x);
