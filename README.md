@@ -10,10 +10,18 @@ Core Java Concepts 100 Lession
 8  .Operators-1
 9  .Operators-2
 10 .Operators-3
-11 .Control Structure Part-1
+11 .Control Structure Part-1 
+  1. Loops & Iterative Statement
 12 .Control Structure Part-2
 13 .Control Structure Part-3
 14 .Loop Pattern-1
+  1. while
+  2. do-while
+  3. for
+  3.1.  Enhanced For Loop
+     ex. for(String str : strs) {
+           // Set of Code
+         }
 15 .Loop Pattern Part-2
 16 .Prime Number - Which value dived 1 and it self it numbers are called Prime Number ex.1,3,5...
 17 .Coding Challenge Loop - Completed 
@@ -22,6 +30,9 @@ Core Java Concepts 100 Lession
 19 .Arrays
 20 .Passing And Returning Array
 21 .Array Programs-1
+  1.Sorting
+    1. Bubble Sort
+    2.Selection sort (Based on index)
 22 .Array Programs-2
 23.Coding Challange Arrays - Completed
 
