@@ -33,10 +33,29 @@ Core Java Concepts 100 Lession
   1.Sorting
     1. Bubble Sort
     2.Selection sort (Based on index)
+    3.Insertion Sort
+    4.Merge Sort
+    5.Quick Sort
 22 .Array Programs-2
+  1. Searching
+       1.Linner Seraching
+           The Array nor will be Sorted
+           Easiest Searching Algorithm
+       2.Binary Search
 23.Coding Challange Arrays - Completed
 
 24.Oops Concept
+  1.Class (Blue Print Or Proto type || Collection of property and methods)
+  2.Object (Instance Of a class)
+  3.Abstarcation (Hiding Unnessary data from parent class Using Private Keyword)
+  4.Encapsulation (Binding together data and Code into Single Unit)
+    1.Data Mofifier Using Method
+      1.private
+      2.public
+      3.protected
+      4.default
+  5.polyMorphism (Same method Name But Differant Parameters)
+  6.Inheritence 
 25.Class ObjectCreation Possibilities
 26.Passing And Returning Object
 
