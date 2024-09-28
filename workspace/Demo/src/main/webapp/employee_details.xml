@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee_details>
+	<Employee>
+		<empid>10001</empid>
+		<empName>Ananth</empName>
+		<designation>SW Developer</designation>
+		<salary>12000</salary>
+	</Employee>
+	<Employee>
+		<empid>10002</empid>
+		<empName>Sathish</empName>
+		<designation>DB Admin</designation>
+		<salary>24000</salary>
+	</Employee>
+	<Employee>
+		<empid>10003</empid>
+		<empName>Suresh</empName>
+		<designation>HR</designation>
+		<salary>45000</salary>
+	</Employee>
+	<Employee>
+		<empid>10004</empid>
+		<empName>Saratha</empName>
+		<designation>Receptionist</designation>
+		<salary>7000</salary>
+	</Employee>
+	<Employee>
+		<empid>10005</empid>
+		<empName>Ramesh</empName>
+		<designation>Manager</designation>
+		<salary>45000</salary>
+	</Employee>
+</employee_details>

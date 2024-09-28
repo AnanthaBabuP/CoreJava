@@ -1,11 +1,11 @@
-Core Java Concepts 100 Lession
+Core Java Concepts 100 Lesion
 
-1  .Orientation Class - Full Covered Sbjects And Details
+1  .Orientation Class - Full Covered Subjects And Details
 2  .Java Introduction 
 3  .History Of Java Language
 4  .JDL installation & Execution Procedure
 5  .JDK & JRE Environment
-6  .Literals, Tokens,Keywords,Identifiers
+6  .Literals, Tokens, Keywords, Identifiers
 7  .Variable & Data Types
 8  .Operators-1
 9  .Operators-2
@@ -38,50 +38,75 @@ Core Java Concepts 100 Lession
     5.Quick Sort
 22 .Array Programs-2
   1. Searching
-       1.Linner Seraching
+       1.Linner Searching
            The Array nor will be Sorted
            Easiest Searching Algorithm
        2.Binary Search
-23.Coding Challange Arrays - Completed
+23.Coding Challenge Arrays - Completed
 
 24.Oops Concept
   1.Class (Blue Print Or Proto type || Collection of property and methods)
   2.Object (Instance Of a class)
-  3.Abstarcation (Hiding Unnessary data from parent class Using Private Keyword)
+  3.Abstarcation (Hiding Unnecessary data from parent class Using Private Keyword)
   4.Encapsulation (Binding together data and Code into Single Unit)
-    1.Data Mofifier Using Method
+    1.Data Modifier Using Method
       1.private
       2.public
       3.protected
       4.default
-  5.polyMorphism (Same method Name But Differant Parameters)
-  6.Inheritence 
-25.Class ObjectCreation Possibilities
+  5.polyMorphism (Same method Name But Different Parameters)
+	1.Comile Time polymorphism - method Overloading
+	2.Run-Time polymorphism - method Overwriting
+
+  6.Inheritence  (Access Methods And Property from parent Class)
+      1.Single Inheritance
+      2.multi Level Inheritance
+      3.Herarchical Inheritance
+25.Class Object Creation Possibilities
 26.Passing And Returning Object
 
 27.Methods
-28.Method Access Mofdifier
+28.Method Access Modifier
 29.Method Overloading
 30.Methods-1
-31.Methods-2
+31.Methods-2(Static And Non static methods)
 32.Methods-3
-33.Recursive Method
-34.Static Keyword
-35.Call By Value Vs Call By Reference
+   1. How to Pass Parameter
+   2.How to return Value
+   3.how to call in parent class method using object
+33.Recursive Method (One Method Call Back to Inside of the method. ex. Factorial, Fibonacci serries)
+
+34.Static Keyword( management Of Memory And It's Rules Of Creation)
+   1.Static Class
+   2.Static block
+   3.Static method
+   4.Static variable
+35.Call By Value (Original Variable Value Not Change)
+	Vs 
+   Call By Reference(Original Variable Value Will be Modify)
+
 
 36.Constructor
 37.Constructor Overloading 
 38.Accessor, Mutator Methods - Getter Setter Method
-39.this keyword
-40.Call To This()
-41.Singleton -Check
+39.this keyword (Represent to a current object && Always Declare to a First line of Code)
+40.Call To This() 
+41.Singleton -Check (Same Reference Code For Many objects)
+	// Create a factory method
+	public static A getInstance(){
+		if(obj == null){
+			obj = new A(); // create new Instance
+		}
+		return obj;
+	}
 
 42.Inheritance
 43.Multilevel Inheritance 
 44.Hierarchal Inheritance 
 45.Possibility Of Inheritance 
-46.Aggregation
-47.Why Multiple Inheritance Is Not Supported In Java
+
+46.Aggregation (Has A Relationship)
+47.Why Multiple Inheritance Is Not Supported In Java (Diamond Problem , Method Ambiguation (Which class method will be executed))
 
 48.Interface
 49.Abstraction

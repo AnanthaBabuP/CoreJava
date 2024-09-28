@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Method</title>
+</head>
+<body>
+    <h1>The XMLHttpRequest Object</h1>
+    <button type="button" onclick="loadDoc()">Request data</button>
+    <p>Click The button on several times to see if the time changes, or the file is cached.</p>
+    <p id="demo"></p>
+    <script>
+        function loadDoc(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if(this.readyState  == 4 && this.status == 200){
+                    document.getElementById('demo').innerHTML = this.responseText;
+                }
+            };
+            xhttp.open('GET',"demo_get.jsp?t="+Math.random(),true);
+            xhttp.send();
+            
+        }
+    </script>
+</body>
+</html>

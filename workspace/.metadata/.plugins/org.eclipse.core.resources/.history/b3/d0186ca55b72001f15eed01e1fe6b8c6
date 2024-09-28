@@ -1,7 +1,0 @@
-package com.FunctionalInterface;
-
-import java.util.Comparator;
-
-public class NameSorting implements Comparator<Book>{
-
-}

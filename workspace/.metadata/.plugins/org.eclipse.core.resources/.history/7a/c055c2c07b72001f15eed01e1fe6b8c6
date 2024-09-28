@@ -1,7 +1,0 @@
-package com.MethodReferance;
-
-@FunctionalInterface
-public interface MyInterface {
-
-	int add(double d,int a);
-}

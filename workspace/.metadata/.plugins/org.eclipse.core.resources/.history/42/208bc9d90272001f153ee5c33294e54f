@@ -1,8 +1,0 @@
-package com.FunctionalInterface;
-
-public class Book {
-
-	String name;
-	int page;
-	double price;
-}
