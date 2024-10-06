@@ -17,13 +17,13 @@
 		</tr>
 		<%
 		try{
-			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase","root","Ananth@1999");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student-details","root","Ananth@1999");
 			Statement stmt = con.createStatement();
 			
 			int Emp_id = Integer.parseInt(request.getParameter("Empid"));
 			
-			ResultSet  rs = stmt.executeQuery("Select * from employee Where Empid="+Emp_id);
+			ResultSet  rs = stmt.executeQuery("Select * from employee_1 Where emp_id="+Emp_id);
 			
 			while(rs.next()){
 				out.println("<tr><td>");
