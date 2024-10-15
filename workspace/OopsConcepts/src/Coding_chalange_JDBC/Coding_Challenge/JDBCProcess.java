@@ -74,6 +74,7 @@ public class JDBCProcess {
 			System.out.println("NAME \t ADDRESS \t CONTACT_NUMBER \t SALARY \t AGE \t DESIGINATION");
 			System.out.println("------------------------------------------------------------------------------------");
 			ResultSet rs = s.executeQuery("SELECT * FROM EMPLOYEE WHERE DESIGINATION = '"+desgination+"'");
+			// Print Statement
 			while(rs.next()) {
 				System.out.println(rs.getString("NAME")+"\t"+
 									rs.getString("ADDRESS")+"\t  "+
@@ -100,6 +101,7 @@ public class JDBCProcess {
 		System.out.println("NAME \t ADDRESS \t CONTACT_NUMBER \t SALARY \t AGE \t DESIGINATION");
 		System.out.println("------------------------------------------------------------------------------------");
 		ResultSet rs = s.executeQuery("SELECT * FROM EMPLOYEE WHERE SALARY = (SELECT MAX(SALARY) FROM EMPLOYEE)");
+		// Print Statement
 		while(rs.next()) {
 			System.out.println(rs.getString("NAME")+"\t"+
 								rs.getString("ADDRESS")+"\t  "+
@@ -113,7 +115,7 @@ public class JDBCProcess {
 
 	
 	/**
-	 * FIND EMPLOYEE SALARY < 5000/- UPDATE SALARY = 15000/-
+	 * DELETE EMPLOYEE WHOSE AGE IS LESSTHEN 20:
 	 * @param con
 	 */
 	private static void deleteChildEmployee(Connection con) {
@@ -134,7 +136,7 @@ public class JDBCProcess {
 	}
 	
 	/**
-	 * DELETE EMPLOYEE WHOSE AGE IS LESSTHEN 20:
+	 * FIND EMPLOYEE SALARY < 5000/- UPDATE SALARY = 15000/-
 	 * @param con
 	 */
 	private static void updateEmployee(Connection con) {
